@@ -3,13 +3,13 @@ import { getFirestore } from 'firebase/firestore'
 import { getAuth } from 'firebase/auth'
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyDabefXqqnNOBgNZFdIk-P4SESk95obuTM',
-  authDomain: 'curso-1066c.firebaseapp.com',
-  projectId: 'curso-1066c',
-  storageBucket: 'curso-1066c.appspot.com',
-  messagingSenderId: '210313919492',
-  appId: '1:210313919492:web:167b1b893d83c3b4c2c951',
-  measurementId: 'G-B27DCM9B9Y'
+  apiKey: 'AIzaSyAYRkY7rXNiUq-IcNpLRds-XFPFdiP6jmQ',
+  authDomain: 'corinthians-89045.firebaseapp.com',
+  projectId: 'corinthians-89045',
+  storageBucket: 'corinthians-89045.appspot.com',
+  messagingSenderId: '697087937142',
+  appId: '1:697087937142:web:ae607e909210d602f2ad57',
+  measurementId: 'G-4KLT7J8SE3'
 }
 
 const firebaseApp = initializeApp(firebaseConfig)
