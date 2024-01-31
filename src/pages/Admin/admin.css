@@ -1,0 +1,62 @@
+.admin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3.2rem;
+}
+
+.admin-container h1 {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.btn-register {
+  margin-bottom: 2rem;
+}
+
+.list {
+  width: 90%;
+  max-width: 37.5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(18, 18, 18, 0.38);
+  border-radius: 0.2rem;
+  margin-bottom: 0.75rem;
+  justify-content: center;
+  padding: 0.875rem 0.5rem;
+}
+
+.list p {
+  margin-bottom: 0.5rem;
+}
+
+.list button {
+  margin-right: 0.5rem;
+  border: 0;
+  border-radius: 0.2rem;
+  padding: 0.4rem;
+}
+
+.btn-delete {
+  color: #ffcc23;
+  background-color: transparent;
+}
+
+.btn-logout {
+  position: absolute;
+  bottom: 6%;
+  left: 4%;
+  height: 3.75rem;
+  width: 3.75rem;
+  border: 0;
+  border-radius: 1.875rem;
+  font-weight: bold;
+  background-color: rgba(219, 38, 41, 0.35);
+  color: #fafafa;
+  transition: all 0.5s;
+}
+
+.btn-logout:hover {
+  background-color: rgba(219, 38, 41, 1);
+  color: #fafafa;
+}
